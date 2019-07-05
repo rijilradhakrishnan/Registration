@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/rijil/Downloads/Passport_Page1_RIJIL.jpeg" added="2019-07-04T03:23:02Z" modified="2019-07-04T03:59:21Z" visited="2019-07-04T03:23:02Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-07-04T03:59:21Z" count="6"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-04T03:23:06Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/Downloads/Passport_Page1_RIJIL.jpg" added="2019-07-04T03:59:51Z" modified="2019-07-04T04:00:32Z" visited="2019-07-04T03:59:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-07-04T04:00:32Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/Downloads/PAN_RIJIL.jpg" added="2019-07-04T04:02:41Z" modified="2019-07-04T04:02:41Z" visited="2019-07-04T04:02:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-07-04T04:02:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/Desktop/images.png" added="2019-07-04T11:28:38Z" modified="2019-07-04T11:29:43Z" visited="2019-07-04T11:28:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-07-04T11:29:36Z" count="4"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2019-07-04T11:29:43Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/Downloads/15622972943822980168993375142767.jpg" added="2019-07-05T03:29:50Z" modified="2019-07-05T03:29:50Z" visited="2019-07-05T03:29:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2019-07-05T03:29:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/test/hello.c" added="2019-07-05T08:15:47Z" modified="2019-07-05T08:51:34Z" visited="2019-07-05T08:15:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-07-05T08:15:47Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2019-07-05T08:51:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/Registration/index.html" added="2019-07-05T09:42:47Z" modified="2019-07-05T10:06:22Z" visited="2019-07-05T09:42:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-07-05T10:06:22Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/gittest/Untitled-1" added="2019-07-05T10:35:07Z" modified="2019-07-05T10:35:07Z" visited="2019-07-05T10:35:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-07-05T10:35:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/gittest/index.html" added="2019-07-05T10:35:25Z" modified="2019-07-05T10:35:25Z" visited="2019-07-05T10:35:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-07-05T10:35:25Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/rijil/gittest" added="2019-07-05T10:38:27Z" modified="2019-07-05T10:38:27Z" visited="2019-07-05T10:38:27.542810Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="code" exec="&apos;code %u&apos;" modified="2019-07-05T10:38:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

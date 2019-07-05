@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-control-center.desktop" open-window-count="0" score="3.00091552734375" last-seen="1562314140"/>
+    <application id="emacs25.desktop" open-window-count="0" score="0" last-seen="1562311098"/>
+    <application id="firefox.desktop" open-window-count="1" score="930.320556640625" last-seen="1562322845"/>
+    <application id="gedit.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="5.0001220703125" last-seen="1562322728"/>
+    <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1561994542"/>
+    <application id="eog.desktop" open-window-count="0" score="0" last-seen="1562239785"/>
+    <application id="code.desktop" open-window-count="1" score="228.03125" last-seen="1562322854"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="1.0001220703125" last-seen="1562316702"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="0" score="19260.682800292969" last-seen="1562322718"/>
+    <application id="org.gnome.Shell.PortalHelper.desktop" open-window-count="0" score="0" last-seen="1562048720"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="0" score="0" last-seen="1562033894"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="0" last-seen="1561995185"/>
+    <application id="thunderbird.desktop" open-window-count="0" score="0" last-seen="1562241906"/>
+  </context>
+</application-state>

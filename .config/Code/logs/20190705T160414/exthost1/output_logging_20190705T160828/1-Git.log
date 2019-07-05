@@ -1,0 +1,22 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/rijil
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+fatal: ambiguous argument 'myBranch': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show :gittest/index.html
+> git ls-files --stage -- gittest/
+> git checkout -q -b master --no-track HEAD
+fatal: 'HEAD' is not a commit and a branch 'master' cannot be created from it
+> git check-ignore -v -z --stdin
+> git add -A -- .
+> git check-ignore -v -z --stdin

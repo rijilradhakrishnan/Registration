@@ -1,0 +1,301 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/rijil/test
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :hello.c
+> git check-ignore -v -z --stdin
+git.getSCMResource.uri file:///home/rijil/test/hello.c
+repo root /home/rijil/test
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git checkout -q --track origin/myBranch
+fatal: A branch named 'myBranch' already exists.
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git checkout -q --track origin/myBranch
+fatal: A branch named 'myBranch' already exists.
+> git checkout -q myBranch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+fatal: no upstream configured for branch 'myBranch'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :hello.c
+> git push -u origin myBranch
+> git ls-tree -l HEAD -- /home/rijil/test/hello.c
+> git show 13f81f7ad78626142166c38f5204cb221ddec877
+> git show HEAD:hello.c
+remote: Repository not found.
+fatal: Authentication failed for 'https://github.com/rijilradhakrishnan/test.git/'
+> git push -u origin myBranch
+Everything up-to-date
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git rev-list --left-right myBranch...refs/remotes/origin/myBranch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:hello.c
+> git checkout -q master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:hello.c
+> git checkout -q myBranch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git rev-list --left-right myBranch...refs/remotes/origin/myBranch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:hello.c
+> git pull --tags origin myBranch
+> git show HEAD:hello.c
+From https://github.com/rijilradhakrishnan/test
+ * branch            myBranch   -> FETCH_HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git rev-list --left-right myBranch...refs/remotes/origin/myBranch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:hello.c
+> git hash-object --stdin -w --path hello.c
+> git ls-tree -l HEAD -- hello.c
+> git update-index --cacheinfo 100644 ba3c88177bef3140c13dc1b6cc787e5bc7a07894
+ hello.c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git rev-list --left-right myBranch...refs/remotes/origin/myBranch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :hello.c
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git rev-list --left-right myBranch...refs/remotes/origin/myBranch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:hello.c
+> git pull --tags origin myBranch
+> git show HEAD:hello.c
+From https://github.com/rijilradhakrishnan/test
+ * branch            myBranch   -> FETCH_HEAD
+> git push origin myBranch:myBranch
+> git show HEAD:hello.c
+To https://github.com/rijilradhakrishnan/test.git
+   a3d5c3e..8fab40c  myBranch -> myBranch
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git rev-list --left-right myBranch...refs/remotes/origin/myBranch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:hello.c
+> git show :hello.c
+> git show :hello.c
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/rijil/Registration
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :index.html
+> git ls-files --stage -- ./
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+fatal: ambiguous argument 'master': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.getSCMResource.uri file:///home/rijil/Registration/index.html
+repo root /home/rijil/Registration
+repo root /home/rijil/test
+> git show :index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git rev-list --left-right myBranch...refs/remotes/origin/myBranch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git checkout -q --track origin/master
+fatal: A branch named 'master' already exists.
+> git for-each-ref --format %(refname:short)%00%(upstream:short) refs/heads
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git rev-list --left-right myBranch...refs/remotes/origin/myBranch
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git checkout -q --track origin/master
+fatal: A branch named 'master' already exists.
+> git pull --tags origin myBranch
+> git check-ignore -v -z --stdin
+> git show :index.html
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/rijilradhakrishnan/test.git/'
+> git check-ignore -v -z --stdin
+> git checkout -q master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :index.html
+git.getSCMResource.uri file:///home/rijil/Registration/index.html
+repo root /home/rijil/Registration
+repo root /home/rijil/test
+git.getSCMResource.uri file:///home/rijil/Registration/index.html
+repo root /home/rijil/Registration
+repo root /home/rijil/test
+git.getSCMResource.uri file:///home/rijil/Registration/index.html
+repo root /home/rijil/Registration
+repo root /home/rijil/test
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git add -A -- .
+> git commit --quiet --allow-empty-message --file - --all
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :index.html
+> git pull --tags origin master
+From https://github.com/rijilradhakrishnan/Registration
+ * branch            master     -> FETCH_HEAD
+> git push origin master:master
+> git show :index.html
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/rijilradhakrishnan/Registration.git/'
+> git checkout -q -b alpha --no-track HEAD
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse alpha
+> git rev-parse --symbolic-full-name alpha@{u}
+fatal: no upstream configured for branch 'alpha'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :index.html
+> git add -A -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse alpha
+> git rev-parse --symbolic-full-name alpha@{u}
+fatal: no upstream configured for branch 'alpha'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git push -u origin alpha
+remote: 
+remote: Create a pull request for 'alpha' on GitHub by visiting:        
+remote:      https://github.com/rijilradhakrishnan/Registration/pull/new/alpha        
+remote: 
+To https://github.com/rijilradhakrishnan/Registration.git
+ * [new branch]      alpha -> alpha
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse alpha
+> git rev-parse --symbolic-full-name alpha@{u}
+> git rev-list --left-right alpha...refs/remotes/origin/alpha
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :index.html
