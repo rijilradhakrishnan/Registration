@@ -20,3 +20,64 @@ fatal: 'HEAD' is not a commit and a branch 'master' cannot be created from it
 > git check-ignore -v -z --stdin
 > git add -A -- .
 > git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+warning: adding embedded git repository: Registration
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> Registration
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached Registration
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: test
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+fatal: ambiguous argument 'myBranch': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+fatal: no upstream configured for branch 'myBranch'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/rijil/.config/Code/logs/20190705T160414/exthost1/output_logging_20190705T160828/1-Git.log
+> git show 9ce3af6d79de8e4abfc645e89292f14bb118c4e5
+> git show HEAD:.config/Code/logs/20190705T160414/exthost1/output_logging_20190705T160828/1-Git.log
+> git ls-tree -l HEAD -- /home/rijil/.config/Code/logs/20190705T160414/exthost1/output_logging_20190705T160828/1-Git.log
+> git show 9ce3af6d79de8e4abfc645e89292f14bb118c4e5
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/rijil/.mozilla/firefox/0vgyj2y5.default-release/places.sqlite-wal
+> git show f36a17c02000127ad738bbf60f84b59708861314
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git ls-tree -l HEAD -- /home/rijil/.mozilla/firefox/0vgyj2y5.default-release/places.sqlite-wal
+> git rev-parse --symbolic-full-name myBranch@{u}
+> git show f36a17c02000127ad738bbf60f84b59708861314
+fatal: no upstream configured for branch 'myBranch'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse myBranch
+> git rev-parse --symbolic-full-name myBranch@{u}
+fatal: no upstream configured for branch 'myBranch'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git add -A -- .
