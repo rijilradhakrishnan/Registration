@@ -22,3 +22,4 @@
 [2019-07-05 16:08:28.736] [exthost] [info] eager extensions activated
 [2019-07-05 16:08:32.748] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
 [2019-07-05 16:08:32.748] [exthost] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2019-07-05 16:11:50.439] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
