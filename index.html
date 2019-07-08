@@ -7,12 +7,18 @@
 
 <body>
     <div class="main"> 
-        <form action="post">
-            <h2>Registration Form</h2>
-            Name: <input value="Enter your name"><br><br>
-            Email: <input type="email" value="Enter your email"><br><br>
-            Phone: <input type="number" maxlength="10" value="Enter your mobile number"><br><br>
-            
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <h2 align="center">Registration Form</h2>
+            <label for="name"><b>Name:</b></label>
+            <input value="Enter your name" name="name"><br><br>
+            <label for="email"><b>Email:</b></label>
+            <input name="email" type="email" value="Enter your email"><br><br>
+            <label for="phone"><b>Phone:</b></label>
+            <input name="phone" type="text" maxlength="10" value="Mobile number"><br><br>
+            <label for="uname"><b>Username:</b></label>
+            <input name="uname" value="Enter your name"><br><br>
+            <label for="pwd"><b>Password:</b></label>
+            <input name="pwd" type="password"><br><br>
         </form>
     </div>
 
